@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+.main{
+    height: 100vh;
+    background: url(assets/zvezda.png) center center no-repeat, #235390;
+}
+.cap{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 230px;
+    gap: 50px;
+}
+.eng{
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 84vh;
+}
+.button-13 {
+  background-color: #58CC02;
+  border: 1px solid #58CC02;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 340px;
+  height: 46px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+.button-14 {
+    background-color: #235390;
+    border: 1px solid #042C60;
+    border-radius: 16px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 340px;
+    height: 46px;
+  }
+  
+  .button-14:hover {
+    background-color: #f7fafa;
+  }
+  
+  .button-14:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+  .pravo{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+  }
+  .start-text{
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size: 37px;
+    margin-bottom: 25px;
+  }
+  .dom{
+    background-color: #0A4A82;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    color: white;
+    font-size: 12px;
+  }
+  .language{
+    font-weight: 500;
+  }
+
