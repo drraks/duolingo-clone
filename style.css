@@ -12,7 +12,6 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 0;
 }
 a{
-    text-decoration: none;
     display: inline-block;
     color: #000000;
 }
@@ -22,7 +21,6 @@ body{
     font-family: "Inter", serif;
 }
 .main{
-    height: 100vh;
     background: url(assets/zvezda.png) center center no-repeat, #235390;
 }
 .cap{
@@ -70,7 +68,7 @@ body{
 }
 
 .button-13:hover {
-  background-color: #f7fafa;
+  background-color: #00000048;
 }
 
 .button-13:focus {
@@ -103,7 +101,7 @@ body{
   }
   
   .button-14:hover {
-    background-color: #f7fafa;
+    background-color: #00000048;
   }
   
   .button-14:focus {
@@ -137,4 +135,172 @@ body{
   .language{
     font-weight: 500;
   }
-
+  .base{
+    height: auto;
+    width: 80vw;
+    margin: 3em auto;
+    display: flex;
+    flex-direction: column;
+    }
+    .bird{
+      display: flex;
+      gap: 60px;
+      border-bottom: solid 2px rgba(0, 0, 0, 0.13);
+      padding: 0px 70px 50px 70px;
+    }
+    .learning{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+    .right{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .che{
+      color: #000000;
+    }
+    .bird-text{
+      color: #0000009f;
+    }
+    .learning{
+      margin-top: 50px;
+    }
+    .effect{
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 50px;
+      border-bottom: solid 2px rgba(0, 0, 0, 0.089);
+    }
+    .comp{
+      display: flex;
+      align-items: center;
+    }
+    .sosal{
+      display: flex;
+      gap: 15px;
+      margin-bottom: 10px;
+    }
+    .i{
+      height: 25px;
+    }
+    .conbining{
+      margin: 30px;
+    }
+    .effect-text{
+      color: #00000094;
+    }
+    .latest{
+      color: #1CB0F6;
+    }
+    .birder{
+      display: flex;
+      gap: 60px;
+      border-bottom: solid 2px rgba(0, 0, 0, 0.144);
+      padding: 50px 70px 50px 70px;
+    }
+    .bird-text0{
+      color: #1CB0F6;
+    }
+    .plot{
+      display: flex;
+      gap: 150px;
+      border-bottom: solid 2px rgba(0, 0, 0, 0.123);
+      padding: 50px 70px 50px 70px;
+    }
+    .link{
+      display: flex;
+      gap: 15px;
+    }
+    .white{
+      height: 54px;
+      width: 170px;
+      border-radius: 16px;
+      display: flex;
+      padding-left: 10px;
+      align-items: center;
+      border: solid 3px rgba(0, 0, 0, 0.144);
+      gap: 5px;
+    }
+    .text-app{
+      color: #4B4B4B;
+      margin: 3px;
+      font-size: 11px;
+    }
+    .basement{
+      height: 100vh;
+      background: url(assets/zvezda.png) center center no-repeat, #235390;
+    }
+    
+.footer{
+  height: auto;
+  background: url(assets/zvezda.png) center center no-repeat, #235390;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.colorfull{
+  width: 80vw;
+  flex-direction: column;
+  display: flex;
+  margin: 3em auto;
+}
+.starting{
+  height: 46px;
+  padding: 20px;
+  border-color: transparent;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(8, 231, 8);
+}
+.learn_duo{
+  display: flex;
+  color: white;
+  gap: 50px;
+}
+.linki{
+  text-decoration: none;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.438);
+}
+.link{
+  display: flex;
+  justify-content: space-between;
+}
+.paragraph{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.name{
+  padding: .3em 0em;
+}
+#soc{
+  padding-top: 1em;
+}
+.learn_duo{
+  padding: 3em 0 6em 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.site{
+  display: flex;
+  padding-top: 5em;
+  flex-direction: column;
+  gap: 20px;
+}
+.languages_contener{
+  display: flex;
+  gap: 25px;
+}
+.languagee{
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.418);
+  margin-top: 15px;
+}
